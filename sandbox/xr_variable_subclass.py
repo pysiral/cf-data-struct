@@ -15,8 +15,6 @@ class Encoding(BaseModel):
     zlib: bool = True
     complevel: int = 5,
 
-class
-
 class FlagVariable(xr.Variable):
     """
     Alias to xr.Variable with simpler init metho
