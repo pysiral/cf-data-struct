@@ -4,22 +4,23 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "cf_data_struct"
-description = "Data structures compliant to Climate & Forecast data conventions with netCDF export templates"
+description = "Climate & Forecast data structures with netCDF export templates"
 readme = "README.md"
 version = "0.1"
-requires-python = ">=3.10"
+requires-python = ">=3.11"
 license = {file = "LICENSE"}
 keywords = []
 authors = [
   { name = "Stefan Hendricks", email = "stefan.hendricks@awi.de" },
 ]
 classifiers = [
-  "Topic :: Scientific/Engineering",
-  "Development Status :: 3 - Alpha",
-  "Programming Language :: Python",
-  "Programming Language :: Python :: 3.9",
-  "Programming Language :: Python :: 3.10",
-  "Programming Language :: Python :: 3.11",
+    "Topic :: Scientific/Engineering",
+    "Development Status :: 3 - Alpha",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14"
 ]
 
 dependencies = [
